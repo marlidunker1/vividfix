@@ -1,0 +1,354 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=e868f945-c0b9-4c2e-ada1-a77480b74c06&fontids=5664081,5664085,5664103,5664115,5664150");
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1280px;
+  /*IS THIS TOO BIG? ITS DPI LAPTOP*/
+  width: 85%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* @font-face{
+        font-family:"Helvetica Neue LT W05 35 Thin";
+        src:url("Fonts/5664081/da266c3a-a094-4adc-a81e-12f73609ba16.eot?#iefix");
+        src:url("Fonts/5664081/da266c3a-a094-4adc-a81e-12f73609ba16.eot?#iefix") format("eot"),url("Fonts/5664081/7d63ccf8-e0ae-4dee-ad4d-bbc798aa5803.woff2") format("woff2"),url("Fonts/5664081/b2c1327f-ab3d-4230-93d7-eee8596e1498.woff") format("woff"),url("Fonts/5664081/922917a9-4ca8-4c0b-b1bb-417b6ff0210e.ttf") format("truetype");
+    }*/
+@font-face {
+  font-family: "Helvetica-Neue-Light";
+  src: url("../../assets/Fonts/5664085/cb0d1e8a-e111-4dbf-82c2-e948aba954c0.eot?#iefix");
+  src: url("../../assets/Fonts/5664085/cb0d1e8a-e111-4dbf-82c2-e948aba954c0.eot?#iefix") format("eot"), url("../../assets/Fonts/5664085/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2") format("woff2"), url("../../assets/Fonts/5664085/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff") format("woff"), url("../../assets/Fonts/5664085/fdf10d5e-4ce0-45e5-a6c1-5eaff6cb1c11.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Medium";
+  src: url("../../assets/Fonts/5664103/5640036d-d549-4f16-b31e-87da78d9e832.eot?#iefix");
+  src: url("../../assets/Fonts/5664103/5640036d-d549-4f16-b31e-87da78d9e832.eot?#iefix") format("eot"), url("../../assets/Fonts/5664103/240c57a0-fdce-440d-9ce3-85e0cb56f470.woff2") format("woff2"), url("../../assets/Fonts/5664103/7802e576-2ffa-4f22-a409-534355fbea79.woff") format("woff"), url("../../assets/Fonts/5664103/14d824a2-2a5c-4692-8e30-74f6e177b675.ttf") format("truetype");
+}
+
+/* @font-face{
+        font-family:"Helvetica Neue LT W05 85 Heavy";
+        src:url("Fonts/5664115/80e123ee-1929-41ec-bf6a-77f92f0d53fe.eot?#iefix");
+        src:url("Fonts/5664115/80e123ee-1929-41ec-bf6a-77f92f0d53fe.eot?#iefix") format("eot"),url("Fonts/5664115/7e42a406-9133-48c0-a705-4264ac520b43.woff2") format("woff2"),url("Fonts/5664115/837750e9-3227-455d-a04e-dc76764aefcf.woff") format("woff"),url("Fonts/5664115/cbb49e47-093c-4029-b64c-b5ee08064205.ttf") format("truetype");
+    }*/
+@font-face {
+  font-family: "Helvetica-Neue-Bold";
+  src: url("../../assets/Fonts/5664150/4c21ab66-1566-4a85-b310-fbc649985f88.eot?#iefix");
+  src: url("../../assets/Fonts/5664150/4c21ab66-1566-4a85-b310-fbc649985f88.eot?#iefix") format("eot"), url("../../assets/Fonts/5664150/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2") format("woff2"), url("../../assets/Fonts/5664150/7b415a05-784a-4a4c-8c94-67e9288312f5.woff") format("woff"), url("../../assets/Fonts/5664150/f07c25ed-2d61-4e44-99ab-a0bc3ec67662.ttf") format("truetype");
+}
+
+/*
+    This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts:  http://www.fonts.com
+    */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navButton {
+  border: none;
+  background: none;
+  width: 200px;
+  height: 92px;
+  text-align: center;
+  border-left: 2px solid #006699;
+  margin-top: 10px;
+}
+
+.navButton img {
+  width: 95%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.navButton:hover img {
+  width: 100%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.navList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  overflow: hidden;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  color: white;
+  visibility: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navList li {
+  list-style: none;
+  color: #66CC33;
+  font-family: minion-pro-display, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #006699;
+  outline: none;
+}
+
+.navList li a:hover {
+  color: #f15b67;
+}
+
+.visible {
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  visibility: visible;
+}
+
+.landing p {
+  font-family: "Helvetica-Neue-Medium", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 500;
+  font-stretch: normal;
+  text-transform: lowercase;
+  font-size: 2.7rem;
+  border: 2px solid pink;
+  padding-left: 25%;
+  color: #66CC33;
+  margin: 50px 0 50px 0;
+  word-spacing: -3px;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .logoContainer {
+  width: 100px;
+  border-left: 2px solid #006699;
+}
+
+.footer .logoContainer img {
+  width: 100%;
+}
+
+.footer .contact {
+  color: #006699;
+  font-family: "Helvetica-Neue-Light", "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 300;
+  font-stretch: normal;
+}
+
+.footer .social {
+  text-align: right;
+  font-family: "Helvetica-Neue-Light", "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 300;
+  font-stretch: normal;
+  font-size: 1rem;
+}
+
+.footer .social li {
+  list-style: none;
+  color: #006699;
+}
+/*# sourceMappingURL=App.css.map */

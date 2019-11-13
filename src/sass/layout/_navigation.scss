@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navButton {
+    border: none;
+    background: none;
+    width: 200px;
+    height: 92px;
+    text-align: center;
+    border-left: 2px solid $vxBlue;
+    margin-top: 10px;
+    
+    img {
+        width: 95%;
+        transition: .3s ease-in-out;
+    }
+}
+
+.navButton:hover {
+
+    img {
+        width: 100%;
+        transition: .3s ease-in-out;
+    }
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    overflow: hidden;
+    transition: .2s ease;
+    color: $white;
+    visibility: hidden;
+    justify-content: space-between;
+
+    li {
+        list-style: none;
+        color: $vxGreen;
+        @include minion;
+
+        a {
+            text-decoration: none;
+            color: $vxBlue;
+            outline: none;
+        }
+
+        a:hover {
+            color: $vxRed;
+        }
+    }
+}
+
+.visible {
+    transition: .2s ease;
+    visibility: visible;
+}

@@ -1,0 +1,30 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+
+    .logoContainer {
+        width: 100px;
+        border-left: 2px solid $vxBlue;
+        
+        img {
+            width: 100%;
+        }
+    }
+
+    .contact {
+        color: $vxBlue;
+        @include light-font;
+    }
+
+    .social {
+        text-align: right;
+        @include light-font;
+        font-size: 1rem;
+
+        li {
+            list-style: none;
+            color: $vxBlue;
+        }
+    }
+}
