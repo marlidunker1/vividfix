@@ -234,6 +234,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 20;
 }
 
 .navButton {
@@ -243,7 +244,6 @@ nav {
   height: 92px;
   text-align: center;
   border-left: 2px solid #006699;
-  margin-top: 10px;
 }
 
 .navButton img {
@@ -300,6 +300,16 @@ nav {
   visibility: visible;
 }
 
+.landing {
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .landing p {
   font-family: "Helvetica-Neue-Medium", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 500;
@@ -309,7 +319,6 @@ nav {
   border: 2px solid pink;
   padding-left: 25%;
   color: #66CC33;
-  margin: 50px 0 50px 0;
   word-spacing: -3px;
 }
 
@@ -321,6 +330,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 15vh;
 }
 
 .footer .logoContainer {

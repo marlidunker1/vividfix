@@ -1,6 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    height: 20;
 }
 
 
@@ -11,7 +12,6 @@ nav {
     height: 92px;
     text-align: center;
     border-left: 2px solid $vxBlue;
-    margin-top: 10px;
     
     img {
         width: 95%;

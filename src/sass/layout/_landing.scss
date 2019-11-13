@@ -1,5 +1,7 @@
 .landing {
-
+    height: 65vh;
+    display: flex;
+    align-items: center;
     p {
         @include medium-font;
         text-transform: lowercase;
@@ -7,7 +9,6 @@
         border: 2px solid pink;
         padding-left: 25%;
         color: $vxGreen;
-        margin: 50px 0 50px 0;
-        word-spacing: -3px;;
+        word-spacing: -3px;
     }
 }
