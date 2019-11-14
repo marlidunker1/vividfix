@@ -8,7 +8,7 @@ const Who = () => {
         <div className="whoFull">
             < Navigation/>
             <section className="who">
-                <h2>wxho</h2>
+                <h2>vxho</h2>
                 <div className="wrapper">
                     <p>Who page</p>
                 </div>

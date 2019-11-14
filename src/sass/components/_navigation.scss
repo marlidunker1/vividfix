@@ -2,6 +2,8 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 20;
+    position: relative;
+    top: 0;
 }
 
 
@@ -57,4 +59,31 @@ nav {
 .visible {
     transition: .2s ease;
     visibility: visible;
+}
+
+.whyNav {
+
+    background: blue;
+}
+
+
+//NAV STYLES SPECIFC TO WHY PAGE 
+.whyFull {
+    
+    .navList {
+        
+        li {
+            color: $vxGreen;
+    
+            a /*THIS IS THE <LINK/> element*/{
+                text-decoration: none;
+                color: $white;
+                outline: none;
+            }
+    
+            a:hover {
+                color: $vxGreen;
+            }
+        }
+    }
 }

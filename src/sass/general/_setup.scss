@@ -22,4 +22,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 //Making default font size
 html {
     font-size: 62.5%; // 1rem = 20px, 10px/16px = 62.5%
+    padding: 0;
+    margin: 0;
 }

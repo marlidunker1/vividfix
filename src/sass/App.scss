@@ -1,10 +1,10 @@
 @import './general/setup';
 @import './general/fontsColors';
 
-@import './layout/navigation.scss';
-@import './layout/why';
-@import './layout/what';
-@import './layout/who';
-@import './layout/where';
-@import './layout/work';
-@import './layout/footer.scss';
+@import './components/navigation.scss';
+@import './components/why';
+@import './components/what';
+@import './components/who';
+@import './components/where';
+@import './components/work';
+@import './components/footer.scss';

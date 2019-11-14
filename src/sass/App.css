@@ -194,6 +194,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 html {
   font-size: 62.5%;
+  padding: 0;
+  margin: 0;
 }
 
 /* @font-face{
@@ -235,6 +237,8 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 20;
+  position: relative;
+  top: 0;
 }
 
 .navButton {
@@ -278,7 +282,7 @@ nav {
 
 .navList li {
   list-style: none;
-  color: #66CC33;
+  color: #006699;
   font-family: minion-pro-display, serif;
   font-weight: 400;
   font-style: normal;
@@ -286,12 +290,12 @@ nav {
 
 .navList li a {
   text-decoration: none;
-  color: #006699;
+  color: white;
   outline: none;
 }
 
 .navList li a:hover {
-  color: #f15b67;
+  color: #006699;
 }
 
 .visible {
@@ -300,7 +304,29 @@ nav {
   visibility: visible;
 }
 
-.landing {
+.whyNav {
+  background: blue;
+}
+
+.whyFull .navList li {
+  color: #66CC33;
+}
+
+.whyFull .navList li a {
+  text-decoration: none;
+  color: white;
+  outline: none;
+}
+
+.whyFull .navList li a:hover {
+  color: #66CC33;
+}
+
+.whyFull {
+  background-color: #006699;
+}
+
+.why {
   height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,17 +334,198 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
-.landing p {
+.why p {
   font-family: "Helvetica-Neue-Medium", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 500;
   font-stretch: normal;
   text-transform: lowercase;
-  font-size: 2.7rem;
-  padding-left: 25%;
-  color: #66CC33;
+  font-size: 5rem;
+  color: white;
   word-spacing: -3px;
+}
+
+.why p span {
+  color: #66CC33;
+}
+
+.whatFull {
+  background-color: #66CC33;
+}
+
+.what {
+  height: 65vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.what h2 {
+  text-align: left;
+  width: 80%;
+  margin-left: 20%;
+  color: white;
+  font-size: 3rem;
+  border-bottom: 2px solid white;
+  padding-top: 40px;
+}
+
+.what p {
+  font-family: "Helvetica-Neue-Medium", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 500;
+  font-stretch: normal;
+  text-transform: lowercase;
+  font-size: 2.5rem;
+  padding-left: 25%;
+  padding-top: 20px;
+  color: white;
+  word-spacing: -3px;
+}
+
+.what p span {
+  color: #006699;
+}
+
+.whoFull {
+  background-color: #66CC33;
+}
+
+.who {
+  height: 65vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.who h2 {
+  text-align: left;
+  width: 80%;
+  margin-left: 20%;
+  color: white;
+  font-size: 3rem;
+  border-bottom: 2px solid white;
+  padding-top: 40px;
+}
+
+.who p {
+  font-family: "Helvetica-Neue-Medium", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 500;
+  font-stretch: normal;
+  text-transform: lowercase;
+  font-size: 2.5rem;
+  padding-left: 25%;
+  padding-top: 20px;
+  color: white;
+  word-spacing: -3px;
+}
+
+.who p span {
+  color: #006699;
+}
+
+.whereFull {
+  background-color: #66CC33;
+}
+
+.where {
+  height: 65vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.where h2 {
+  text-align: left;
+  width: 80%;
+  margin-left: 20%;
+  color: white;
+  font-size: 3rem;
+  border-bottom: 2px solid white;
+  padding-top: 40px;
+}
+
+.where p {
+  font-family: "Helvetica-Neue-Medium", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 500;
+  font-stretch: normal;
+  text-transform: lowercase;
+  font-size: 2.5rem;
+  padding-left: 25%;
+  padding-top: 20px;
+  color: white;
+  word-spacing: -3px;
+}
+
+.where p span {
+  color: #006699;
+}
+
+.workFull {
+  background-color: #66CC33;
+}
+
+.work {
+  height: 65vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.work h2 {
+  text-align: left;
+  width: 100%;
+  width: 80%;
+  color: white;
+  margin-left: 20%;
+  font-size: 3rem;
+  border-bottom: 2px solid white;
+  padding-top: 40px;
+}
+
+.work p {
+  font-family: "Helvetica-Neue-Medium", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 500;
+  font-stretch: normal;
+  text-transform: lowercase;
+  font-size: 2.5rem;
+  padding-left: 25%;
+  padding-top: 20px;
+  color: white;
+  word-spacing: -3px;
+}
+
+.work p span {
+  color: #006699;
 }
 
 .footer {
@@ -330,6 +537,8 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   height: 15vh;
+  position: relative;
+  bottom: 0;
 }
 
 .footer .logoContainer {
@@ -342,7 +551,7 @@ nav {
 }
 
 .footer .contact {
-  color: #006699;
+  color: white;
   font-family: "Helvetica-Neue-Light", "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 300;
   font-stretch: normal;
@@ -358,6 +567,6 @@ nav {
 
 .footer .social li {
   list-style: none;
-  color: #006699;
+  color: white;
 }
 /*# sourceMappingURL=App.css.map */

@@ -3,6 +3,8 @@
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
     height: 15vh;
+    position: relative;
+    bottom: 0;
 
     .logoContainer {
         width: 100px;

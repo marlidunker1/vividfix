@@ -8,7 +8,7 @@ const Where = () => {
         <div className="whereFull">
             < Navigation/>
             <section className="where">
-                <h2>wxhere</h2>
+                <h2>vxhere</h2>
                 <div className="wrapper">
                     <p>Where page</p>
                 </div>

@@ -8,7 +8,7 @@ const Work = () => {
         <div className="workFull">
             < Navigation/>
             <section className="work">
-                <h2>work</h2>
+                <h2>vxork</h2>
                 <div className="wrapper">
                     <p>Work page</p>
                 </div>
