@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import vxLogo from '../assets/vxWhite.png';
+// import vxLogo from '../assets/vxWhite.png';
 import { Link } from 'react-router-dom';
 import '../sass/App.scss';
 
@@ -14,21 +14,17 @@ class Navigation extends Component {
 
     handleClick = (e) => {
         e.preventDefault();
-        this.setState(state => ({
-            clicked: !state.clicked
-        }));
     }
 
     render() {
-        const { clicked } = this.state;
 
         return (
             <div className="wrapper">
                 <nav>
                     <button className="navButton" onClick={this.handleClick}>
-                        <img src={vxLogo} alt="vx logo"/>
+                        {/* <img src={vxLogo} alt="vx logo"/> */}
                     </button>        
-                    <ul className={`navList ${ clicked ? "visible" : ""}`}>
+                    <ul className="navList">
                         <li>
                             <Link to="/">vxhy</Link>
                         </li>

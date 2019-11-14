@@ -8,11 +8,14 @@
 
     .logoContainer {
         width: 100px;
-        border-left: 2px solid $vxBlue;
+        height: 43px;
+        background-image: url(../../assets/vxWhite.png);
+        background-size: cover;
+        background-color: $vxBlue;
         
-        img {
-            width: 100%;
-        }
+        // img {
+        //     width: 100%;
+        // }
     }
 
     .contact {
@@ -28,6 +31,52 @@
         li {
             list-style: none;
             color: $white;
+        }
+    }
+}
+
+//FOOTER STYLES SPECIFC TO WHY PAGE 
+.whyFull {
+
+    .logoContainer {
+        border-left: 2px solid $vxGreen;
+    }
+}
+
+//FOOTER STYLES SPECIFC TO WHAT PAGE 
+.whatFull {
+
+    .logoContainer {
+        border-left: 2px solid $vxBlue;
+        background-image: url(../../assets/vxWhite.png);
+        background-size: cover;
+        background-color: $vxGreen;
+    }
+}
+
+//FOOTER STYLES SPECIFC TO WH0 PAGE 
+.whoFull {
+
+    .logoContainer {
+        border-left: 2px solid $black;
+        background-image: url(../../assets/vxBlack.png);
+        background-size: cover;
+        background-color: $white;
+    }
+
+    .contact {
+        color: $black;
+        @include light-font;
+    }
+
+    .social {
+        text-align: right;
+        @include light-font;
+        font-size: 1rem;
+
+        li {
+            list-style: none;
+            color: $black;
         }
     }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import vxLogo from '../assets/vxWhite.png';
+// import vxLogo from '../assets/vxWhite.png';
 import '../sass/App.scss';
 
 class Footer extends Component {
@@ -9,10 +9,10 @@ class Footer extends Component {
             <div className="wrapper">
                 <section className="footer">
                     <div className="logoContainer">
-                        <img src={vxLogo} alt="vx logo"/>
+                        {/* <img src={vxLogo} alt="vx logo"/> */}
                     </div>
                     <div className="contact">
-                        <p>2733 Lakeshorei Boulevard West</p>
+                        <p>2733 Lakeshore Boulevard West</p>
                         <p>Toronto, Canada</p>
                         <p>(416) 503-0744</p>
                     </div>

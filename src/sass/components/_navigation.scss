@@ -9,23 +9,15 @@ nav {
 
 .navButton {
     border: none;
-    background: none;
+    background-image: url(../../assets/vxWhite.png);
+    background-size: cover;
+    background-color: $vxBlue;
     width: 200px;
     height: 92px;
     text-align: center;
-    border-left: 2px solid $vxBlue;
     
     img {
-        width: 95%;
-        transition: .3s ease-in-out;
-    }
-}
-
-.navButton:hover {
-
-    img {
         width: 100%;
-        transition: .3s ease-in-out;
     }
 }
 
@@ -34,9 +26,6 @@ nav {
     align-items: center;
     width: 50%;
     overflow: hidden;
-    transition: .2s ease;
-    color: $white;
-    visibility: hidden;
     justify-content: space-between;
 
     li {
@@ -56,11 +45,6 @@ nav {
     }
 }
 
-.visible {
-    transition: .2s ease;
-    visibility: visible;
-}
-
 .whyNav {
 
     background: blue;
@@ -69,6 +53,12 @@ nav {
 
 //NAV STYLES SPECIFC TO WHY PAGE 
 .whyFull {
+
+
+    .navButton {  
+        border-left: 2px solid $vxGreen;
+    
+    }
     
     .navList {
         
@@ -76,13 +66,63 @@ nav {
             color: $vxGreen;
     
             a /*THIS IS THE <LINK/> element*/{
-                text-decoration: none;
                 color: $white;
-                outline: none;
             }
     
             a:hover {
                 color: $vxGreen;
+            }
+        }
+    }
+}
+
+//NAV STYLES SPECIFC TO WHAT PAGE 
+.whatFull {
+
+    .navButton {  
+        border-left: 2px solid $vxBlue;
+        background-color: $vxGreen;
+    
+    }
+    
+    .navList {
+        
+        li {
+            color: $vxBlue;
+    
+            a /*THIS IS THE <LINK/> element*/{
+                color: $white;
+            }
+    
+            a:hover {
+                color: $vxBlue;
+            }
+        }
+    }
+}
+
+//NAV STYLES SPECIFC TO WHAT PAGE 
+.whoFull {
+
+    .navButton {  
+        border-left: 2px solid $vxGreen;
+        background-image: url(../../assets/vx.png);
+        background-size: cover;
+        background-color: $white;
+    
+    }
+    
+    .navList {
+        
+        li {
+            color: $vxGreen;
+    
+            a /*THIS IS THE <LINK/> element*/{
+                color: $vxBlue;
+            }
+    
+            a:hover {
+                color: $vxBlue;
             }
         }
     }
