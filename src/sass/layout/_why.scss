@@ -1,0 +1,22 @@
+.whyFull {
+    background-color: $vxBlue;
+}
+
+.why {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    p {
+        @include medium-font;
+        text-transform: lowercase;
+        font-size: 5rem;
+        color: $white;
+        word-spacing: -3px;
+
+        span {
+            color: $vxGreen;
+        }
+    }
+}

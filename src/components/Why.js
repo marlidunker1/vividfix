@@ -1,13 +1,19 @@
 import React from 'react';
 import '../sass/App.scss';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 const Why = () => {
     return (
-        <section className="landing">
-            <div className="wrapper">
-                <p>Vividfix is a creative design studio offering a suite of graphic and communication design services using the latest technology and a team of gifted customer-centric professionals.</p>
-            </div>
-        </section> 
+        <div className="whyFull">
+            < Navigation/>
+            <section className="why">
+                <div className="wrapper">
+                    <p>look good <span>:)</span></p>
+                </div>
+            </section>
+            <Footer />       
+        </div>
     )
 }
 

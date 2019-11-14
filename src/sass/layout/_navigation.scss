@@ -39,17 +39,17 @@ nav {
 
     li {
         list-style: none;
-        color: $vxGreen;
+        color: $vxBlue;
         @include minion;
 
         a /*THIS IS THE <LINK/> element*/{
             text-decoration: none;
-            color: $vxBlue;
+            color: $white;
             outline: none;
         }
 
         a:hover {
-            color: $vxRed;
+            color: $vxBlue;
         }
     }
 }

@@ -1,13 +1,20 @@
 import React from 'react';
 import '../sass/App.scss';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 const Who = () => {
     return (
-        <section>
-            <div className="wrapper">
-                <p>This is the who page</p>
-            </div>
-        </section> 
+        <div className="whoFull">
+            < Navigation/>
+            <section className="who">
+                <h2>wxho</h2>
+                <div className="wrapper">
+                    <p>Who page</p>
+                </div>
+            </section>
+            <Footer />       
+        </div>
     )
 }
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import vxLogo from '../assets/vx.png';
+import vxLogo from '../assets/vxWhite.png';
 import { Link } from 'react-router-dom';
 import '../sass/App.scss';
 
