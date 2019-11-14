@@ -42,7 +42,7 @@ nav {
         color: $vxGreen;
         @include minion;
 
-        a {
+        a /*THIS IS THE <LINK/> element*/{
             text-decoration: none;
             color: $vxBlue;
             outline: none;

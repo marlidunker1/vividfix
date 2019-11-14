@@ -1,8 +1,7 @@
 import React from 'react';
 import '../sass/App.scss';
 
-
-const Landing = () => {
+const Why = () => {
     return (
         <section className="landing">
             <div className="wrapper">
@@ -12,4 +11,4 @@ const Landing = () => {
     )
 }
 
-export default Landing;
+export default Why;
